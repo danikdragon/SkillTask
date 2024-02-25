@@ -97,5 +97,9 @@ int main()
 		{
 			cout << e.what() << "\n";
 		}
+		catch (...)
+		{
+			cout <<"ERROR\n";
+		}
 	}
 }

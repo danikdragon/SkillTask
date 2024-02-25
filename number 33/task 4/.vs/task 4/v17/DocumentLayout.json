@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "B:\\c\u002B\u002B\\SkillTusk\\number 33\\task 2\\",
+  "WorkspaceRootPath": "B:\\c\u002B\u002B\\SkillTusk\\number 33\\task 4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7737AF85-B084-486C-873C-C9D38A8B981C}|task 2\\task 2.vcxproj|B:\\c\u002B\u002B\\SkillTusk\\number 33\\task 2\\task 2\\task 2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7737AF85-B084-486C-873C-C9D38A8B981C}|task 2\\task 2.vcxproj|solutionrelative:task 2\\task 2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5B933DA7-F34D-44F3-9050-0197B4B4750C}|task 4\\task 4.vcxproj|B:\\c\u002B\u002B\\SkillTusk\\number 33\\task 4\\task 4\\task 4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5B933DA7-F34D-44F3-9050-0197B4B4750C}|task 4\\task 4.vcxproj|solutionrelative:task 4\\task 4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "task 2.cpp",
-              "DocumentMoniker": "B:\\c\u002B\u002B\\SkillTusk\\number 33\\task 2\\task 2\\task 2.cpp",
-              "RelativeDocumentMoniker": "task 2\\task 2.cpp",
-              "ToolTip": "B:\\c\u002B\u002B\\SkillTusk\\number 33\\task 2\\task 2\\task 2.cpp",
-              "RelativeToolTip": "task 2\\task 2.cpp",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAGUAAAAUAAAA",
+              "Title": "task 4.cpp",
+              "DocumentMoniker": "B:\\c\u002B\u002B\\SkillTusk\\number 33\\task 4\\task 4\\task 4.cpp",
+              "RelativeDocumentMoniker": "task 4\\task 4.cpp",
+              "ToolTip": "B:\\c\u002B\u002B\\SkillTusk\\number 33\\task 4\\task 4\\task 4.cpp",
+              "RelativeToolTip": "task 4\\task 4.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-02-25T05:38:47.101Z",
+              "WhenOpened": "2024-02-25T15:25:34.072Z",
               "EditorCaption": ""
             }
           ]
