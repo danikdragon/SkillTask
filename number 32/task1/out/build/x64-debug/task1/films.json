@@ -1,0 +1,81 @@
+[
+    {
+        "actor": [
+            "for find test"
+        ],
+        "author": "Lana Wachowski",
+        "character": [
+            "Neo"
+        ],
+        "country": "USA",
+        "creationDate": "1999-03-31",
+        "director": "Lana Wachowski",
+        "name": "The Matrix",
+        "producer": "Joel Silver",
+        "studio": "Warner Bros."
+    },
+    {
+        "actor": [
+            "Elijah Wood",
+            "for find test",
+            "Viggo Mortensen"
+        ],
+        "author": "J.R.R. Tolkien",
+        "character": [
+            "Frodo Baggins",
+            "Gandalf",
+            "Aragorn"
+        ],
+        "country": "New Zealand",
+        "creationDate": "2001-12-10",
+        "director": "Peter Jackson",
+        "name": "The Lord of the Rings: The Fellowship of the Ring",
+        "producer": "Peter Jackson",
+        "studio": "New Line Cinema"
+    },
+    {
+        "actor": [
+            "Leonardo DiCaprio",
+            "Ellen Page",
+            "Joseph Gordon-Levitt"
+        ],
+        "author": "Christopher Nolan",
+        "character": [
+            "Cobb",
+            "Ariadne",
+            "Arthur"
+        ],
+        "country": "USA",
+        "creationDate": "2010-07-16",
+        "director": "Christopher Nolan",
+        "name": "Inception",
+        "producer": "Emma Thomas",
+        "studio": "Warner Bros."
+    },
+    {
+        "actor": [],
+        "author": "Quentin Tarantino",
+        "character": [],
+        "country": "USA",
+        "creationDate": "1994-10-14",
+        "director": "Quentin Tarantino",
+        "name": "Pulp Fiction",
+        "producer": "Lawrence Bender",
+        "studio": "Miramax Films"
+    },
+    {
+        "actor": [
+            "for find test"
+        ],
+        "author": "Stephen King",
+        "character": [
+            "Tim Robbins"
+        ],
+        "country": "",
+        "creationDate": "",
+        "director": "Frank Darabont",
+        "name": "The Shawshank Redemption",
+        "producer": "Niki Marvin",
+        "studio": ""
+    }
+]

@@ -1,0 +1,5 @@
+B:/c++/number 25/task-2/out/build/x64-debug/CMakeFiles/edit_cache.dir
+B:/c++/number 25/task-2/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+B:/c++/number 25/task-2/out/build/x64-debug/task-2/CMakeFiles/task-2.dir
+B:/c++/number 25/task-2/out/build/x64-debug/task-2/CMakeFiles/edit_cache.dir
+B:/c++/number 25/task-2/out/build/x64-debug/task-2/CMakeFiles/rebuild_cache.dir
