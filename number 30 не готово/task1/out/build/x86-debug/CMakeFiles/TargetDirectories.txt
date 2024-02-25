@@ -1,0 +1,5 @@
+B:/c++/number 30/task1/out/build/x86-debug/CMakeFiles/edit_cache.dir
+B:/c++/number 30/task1/out/build/x86-debug/CMakeFiles/rebuild_cache.dir
+B:/c++/number 30/task1/out/build/x86-debug/task1/CMakeFiles/task1.dir
+B:/c++/number 30/task1/out/build/x86-debug/task1/CMakeFiles/edit_cache.dir
+B:/c++/number 30/task1/out/build/x86-debug/task1/CMakeFiles/rebuild_cache.dir
