@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "B:\\c\u002B\u002B\\SkillTusk\\number 33\\task 4\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5B933DA7-F34D-44F3-9050-0197B4B4750C}|task 4\\task 4.vcxproj|B:\\c\u002B\u002B\\SkillTusk\\number 33\\task 4\\task 4\\task 4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5B933DA7-F34D-44F3-9050-0197B4B4750C}|task 4\\task 4.vcxproj|solutionrelative:task 4\\task 4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,19 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "task 4.cpp",
-              "DocumentMoniker": "B:\\c\u002B\u002B\\SkillTusk\\number 33\\task 4\\task 4\\task 4.cpp",
-              "RelativeDocumentMoniker": "task 4\\task 4.cpp",
-              "ToolTip": "B:\\c\u002B\u002B\\SkillTusk\\number 33\\task 4\\task 4\\task 4.cpp",
-              "RelativeToolTip": "task 4\\task 4.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-02-25T15:25:34.072Z",
-              "EditorCaption": ""
             }
           ]
         }
