@@ -89,5 +89,9 @@ int main()
         {
             cout << "Error : " << e.what() << "\n";
         }
+        catch(...)
+        {
+            cout << "ERROR\n";
+        }
     }
 }
