@@ -7,6 +7,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\Visual 2022\\cashe\\VC\\Tools\\MSVC\\14.39.33519\\include\\xtree||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\Visual 2022\\cashe\\VC\\Tools\\MSVC\\14.39.33519\\include\\xutility||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\c\u002B\u002B\\SkillTusk\\30 HTTP \u0437\u0430\u043F\u0440\u043E\u0441\u044B cpr\\task3\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -18,7 +24,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +44,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "xutility",
+              "DocumentMoniker": "B:\\Visual 2022\\cashe\\VC\\Tools\\MSVC\\14.39.33519\\include\\xutility",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Visual 2022\\cashe\\VC\\Tools\\MSVC\\14.39.33519\\include\\xutility",
+              "ToolTip": "B:\\Visual 2022\\cashe\\VC\\Tools\\MSVC\\14.39.33519\\include\\xutility",
+              "RelativeToolTip": "..\\..\\..\\..\\Visual 2022\\cashe\\VC\\Tools\\MSVC\\14.39.33519\\include\\xutility",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAgwPAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-27T09:43:27.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "xtree",
+              "DocumentMoniker": "B:\\Visual 2022\\cashe\\VC\\Tools\\MSVC\\14.39.33519\\include\\xtree",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Visual 2022\\cashe\\VC\\Tools\\MSVC\\14.39.33519\\include\\xtree",
+              "ToolTip": "B:\\Visual 2022\\cashe\\VC\\Tools\\MSVC\\14.39.33519\\include\\xtree",
+              "RelativeToolTip": "..\\..\\..\\..\\Visual 2022\\cashe\\VC\\Tools\\MSVC\\14.39.33519\\include\\xtree",
+              "ViewState": "AQIAANAEAAAAAAAAAAAgwOQEAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-27T09:39:54.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "B:\\c\u002B\u002B\\SkillTusk\\30 HTTP \u0437\u0430\u043F\u0440\u043E\u0441\u044B cpr\\task3\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "B:\\c\u002B\u002B\\SkillTusk\\30 HTTP \u0437\u0430\u043F\u0440\u043E\u0441\u044B cpr\\task3\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAgwCgAAAAqAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwC4AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-02-27T08:00:12.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "B:\\c\u002B\u002B\\SkillTusk\\30 HTTP \u0437\u0430\u043F\u0440\u043E\u0441\u044B cpr\\task3\\CMakeLists.txt",
               "RelativeDocumentMoniker": "CMakeLists.txt",
