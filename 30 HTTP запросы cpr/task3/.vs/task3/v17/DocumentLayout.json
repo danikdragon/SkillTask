@@ -13,6 +13,10 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\Visual 2022\\cashe\\VC\\Tools\\MSVC\\14.39.33519\\include\\xutility||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\c\u002B\u002B\\SkillTusk\\30 HTTP \u0437\u0430\u043F\u0440\u043E\u0441\u044B cpr\\task3\\out\\build\\x64-debug\\_deps\\cpr-src\\include\\cpr\\payload.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:out\\build\\x64-debug\\_deps\\cpr-src\\include\\cpr\\payload.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|B:\\c\u002B\u002B\\SkillTusk\\30 HTTP \u0437\u0430\u043F\u0440\u043E\u0441\u044B cpr\\task3\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -24,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,6 +45,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "payload.h",
+              "DocumentMoniker": "B:\\c\u002B\u002B\\SkillTusk\\30 HTTP \u0437\u0430\u043F\u0440\u043E\u0441\u044B cpr\\task3\\out\\build\\x64-debug\\_deps\\cpr-src\\include\\cpr\\payload.h",
+              "RelativeDocumentMoniker": "out\\build\\x64-debug\\_deps\\cpr-src\\include\\cpr\\payload.h",
+              "ToolTip": "B:\\c\u002B\u002B\\SkillTusk\\30 HTTP \u0437\u0430\u043F\u0440\u043E\u0441\u044B cpr\\task3\\out\\build\\x64-debug\\_deps\\cpr-src\\include\\cpr\\payload.h",
+              "RelativeToolTip": "out\\build\\x64-debug\\_deps\\cpr-src\\include\\cpr\\payload.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-27T12:22:26.93Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,14 +93,14 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "B:\\c\u002B\u002B\\SkillTusk\\30 HTTP \u0437\u0430\u043F\u0440\u043E\u0441\u044B cpr\\task3\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwC4AAAAUAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADAAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-02-27T08:00:12.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "B:\\c\u002B\u002B\\SkillTusk\\30 HTTP \u0437\u0430\u043F\u0440\u043E\u0441\u044B cpr\\task3\\CMakeLists.txt",
               "RelativeDocumentMoniker": "CMakeLists.txt",
@@ -91,8 +108,7 @@
               "RelativeToolTip": "CMakeLists.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-02-27T07:56:58.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-27T07:56:58.421Z"
             }
           ]
         }

@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <map>
+#include <vector>
 #include <cpr/cpr.h>
 using namespace std;
 
@@ -9,7 +10,7 @@ int main()
 	string pathPost = "http://httpbin.org/post";
 	cpr::Response r;
 
-	map<std::string, std::string> arguments;
+	vector<cpr::Pair> arguments;
 	string key, value;
 
 	while(true)
@@ -24,14 +25,14 @@ int main()
 		if (value == "get" || value == "post")
 			break;
 
-		arguments.insert({ key,value });
+		arguments.push_back({ key,value });
 	}
 
 	if(key == "get" || value == "get")
 	{
 		string getArgs = "?";
-		for (map<string, string>::iterator i = arguments.begin(); i != arguments.end(); i++)
-			getArgs += (i->first + "=") + (i->second + "&");
+		for (int i = 0; i < arguments.size(); i++)
+			getArgs += (arguments[i].key + "=") + (arguments[i].value + "&");
 
 		pathGet += getArgs;
 		r = cpr::Get(cpr::Url(pathGet));
@@ -40,16 +41,19 @@ int main()
 	}
 	else if (key == "post" || value == "post")
 	{
-		//cpr::Payload payload{ arguments.begin() ,arguments.end() };
+		//string getArgs = "";
 		//for (map<string, string>::iterator i = arguments.begin(); i != arguments.end(); i++)
-		//	payload.Add(cpr::Pair(i->first.c_str(), i->second.c_str()));
+		//	getArgs += (i->first + "=") + (i->second + "&");
+		//r = cpr::Post(cpr::Url(pathPost),
+		//	cpr::Body(getArgs));
+		
 
-		string getArgs = "";
-		for (map<string, string>::iterator i = arguments.begin(); i != arguments.end(); i++)
-			getArgs += (i->first + "=") + (i->second + "&");
+		//for (map<string, string>::iterator i = arguments.begin(); i != arguments.end(); i++)
+		//	getArgs += (i->first + "=") + (i->second + "&");
 
+		cpr::Payload payload = cpr::Payload(arguments.begin() ,arguments.end());
 		r = cpr::Post(cpr::Url(pathPost),
-			cpr::Body(getArgs));
+			cpr::Payload(payload));
 		cout << r.text << endl;
 	}
 	return 0;
