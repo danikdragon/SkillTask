@@ -34,23 +34,11 @@ int main()
 		for (int i = 0; i < arguments.size(); i++)
 			getArgs += (arguments[i].key + "=") + (arguments[i].value + "&");
 
-		pathGet += getArgs;
-		r = cpr::Get(cpr::Url(pathGet));
-
+		r = cpr::Get(cpr::Url(pathGet + getArgs));
 		cout << r.text << endl;
 	}
 	else if (key == "post" || value == "post")
 	{
-		//string getArgs = "";
-		//for (map<string, string>::iterator i = arguments.begin(); i != arguments.end(); i++)
-		//	getArgs += (i->first + "=") + (i->second + "&");
-		//r = cpr::Post(cpr::Url(pathPost),
-		//	cpr::Body(getArgs));
-		
-
-		//for (map<string, string>::iterator i = arguments.begin(); i != arguments.end(); i++)
-		//	getArgs += (i->first + "=") + (i->second + "&");
-
 		cpr::Payload payload = cpr::Payload(arguments.begin() ,arguments.end());
 		r = cpr::Post(cpr::Url(pathPost),
 			cpr::Payload(payload));
