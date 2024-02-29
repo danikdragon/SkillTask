@@ -1,0 +1,9 @@
+B:/c++/SkillTusk/35 Qt Новые возможности C++/task 1-2/build-task-1-2-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/task-1-2.dir
+B:/c++/SkillTusk/35 Qt Новые возможности C++/task 1-2/build-task-1-2-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+B:/c++/SkillTusk/35 Qt Новые возможности C++/task 1-2/build-task-1-2-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+B:/c++/SkillTusk/35 Qt Новые возможности C++/task 1-2/build-task-1-2-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+B:/c++/SkillTusk/35 Qt Новые возможности C++/task 1-2/build-task-1-2-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+B:/c++/SkillTusk/35 Qt Новые возможности C++/task 1-2/build-task-1-2-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+B:/c++/SkillTusk/35 Qt Новые возможности C++/task 1-2/build-task-1-2-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+B:/c++/SkillTusk/35 Qt Новые возможности C++/task 1-2/build-task-1-2-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/task-1-2_autogen_timestamp_deps.dir
+B:/c++/SkillTusk/35 Qt Новые возможности C++/task 1-2/build-task-1-2-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/task-1-2_autogen.dir

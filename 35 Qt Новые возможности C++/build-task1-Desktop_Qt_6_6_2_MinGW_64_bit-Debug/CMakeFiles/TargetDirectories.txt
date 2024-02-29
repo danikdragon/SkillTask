@@ -1,9 +1,0 @@
-B:/c++/SkillTusk/35 Qt/build-task1-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/task1.dir
-B:/c++/SkillTusk/35 Qt/build-task1-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-B:/c++/SkillTusk/35 Qt/build-task1-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-B:/c++/SkillTusk/35 Qt/build-task1-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
-B:/c++/SkillTusk/35 Qt/build-task1-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
-B:/c++/SkillTusk/35 Qt/build-task1-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
-B:/c++/SkillTusk/35 Qt/build-task1-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
-B:/c++/SkillTusk/35 Qt/build-task1-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/task1_autogen_timestamp_deps.dir
-B:/c++/SkillTusk/35 Qt/build-task1-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/task1_autogen.dir
