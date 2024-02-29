@@ -21,22 +21,21 @@ int main()
 	recursiveGetFileNamesByExtension("..\\..\\..\\..\\", ".exe");
 	cout << endl;
 
-	//по непонятным мне причинам этот участок кода уходит в ошибку, какую бы я директорию не вписал бы туда
-	//string path;
-	//while (path != "exit")
-	//{
-	//	cout << "Enter your path or exit: ";
-	//	cin >> path;
-	//	if (fs::is_regular_file(path))
-	//		cout << "This is file, enter dir\n";
-	//	else
-	//	{
-	//		string extension;
-	//		cout << "Enter your extension: ";
-	//		cin >> path;
-	//		recursiveGetFileNamesByExtension(path, extension);
-	//	}
-	//}
+	string path;
+	while (path != "exit")
+	{
+		cout << "Enter your path or exit: ";
+		cin >> path;
+		if (fs::is_regular_file(path))
+			cout << "This is file, enter dir\n";
+ 	else
+		{
+			string extension;
+			cout << "Enter your extension: ";
+			cin >> extension;
+			recursiveGetFileNamesByExtension(path, extension);
+		}
+	}
 
 	return 0;
 }
