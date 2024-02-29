@@ -1,0 +1,13 @@
+*
+!*/
+!*.cpp
+!*.h
+!*.json
+!*.txt
+!*.ui
+!*.gitignore
+
+**/nlohmann_json
+**/_deps
+**/cpr
+**/example-cmake-fetch-content
