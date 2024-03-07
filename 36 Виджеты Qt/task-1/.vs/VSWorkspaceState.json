@@ -8,11 +8,13 @@
       "out\\build\\x86-debug",
       "out\\install\\x86-debug",
       "out\\build\\x86-release",
-      "out\\install\\x86-release"
+      "out\\install\\x86-release",
+      "out\\build"
     ]
   },
   "ExpandedNodes": [
     ""
   ],
+  "SelectedNode": "\\down.png",
   "PreviewInSolutionExplorer": false
 }
