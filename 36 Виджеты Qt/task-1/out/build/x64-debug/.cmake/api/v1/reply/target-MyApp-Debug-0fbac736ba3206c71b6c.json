@@ -187,7 +187,7 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 8,
 				"fragment" : "B:\\Qt\\5.15.2\\mingw81_64\\lib\\libQt5Core.a",
 				"role" : "libraries"
 			},

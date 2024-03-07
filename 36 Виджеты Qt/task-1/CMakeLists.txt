@@ -10,8 +10,8 @@ set(CMAKE_AUTOUIC ON)
 
 set(CMAKE_PREFIX_PATH "B:\\Qt\\5.15.2\\mingw81_64\\lib\\cmake")
 
-find_package(Qt5 COMPONENTS Widgets Core REQUIRED)
+find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
 add_executable(MyApp main.cpp)
 
-target_link_libraries(MyApp Qt5::Widgets Qt5::Core)
+target_link_libraries(MyApp Qt5::Widgets)
