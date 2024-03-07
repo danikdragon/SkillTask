@@ -1,5 +1,4 @@
-﻿//#include "QtWidgetsApplication1.h"
-#include <QtWidgets/QApplication>
+﻿#include <QtWidgets/QApplication>
 #include <QSlider>
 #include <QSpinBox>
 #include <QPushbutton>
