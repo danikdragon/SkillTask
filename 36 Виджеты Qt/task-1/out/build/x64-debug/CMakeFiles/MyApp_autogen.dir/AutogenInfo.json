@@ -76,7 +76,15 @@
 	"CMAKE_SOURCE_DIR" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1",
 	"DEP_FILE" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build/x64-debug/MyApp_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "MyApp_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/Header1.h",
+			"MU",
+			"EWIEGA46WW/moc_Header1.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build/x64-debug/MyApp_autogen/include",
 	"MOC_COMPILATION_FILE" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build/x64-debug/MyApp_autogen/mocs_compilation.cpp",
