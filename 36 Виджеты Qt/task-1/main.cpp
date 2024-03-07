@@ -14,6 +14,9 @@ using namespace std;
 class ImageButton : public QPushButton
 {
     Q_OBJECT
+public slots:
+    void setUp();
+    void setDown();
 public:
     ImageButton() = default;
     ImageButton(QWidget* parent);
@@ -21,9 +24,6 @@ public:
     QSize sizeHint() const override;
     QSize minimumSizeHint() const override;
     void keyPressEvent(QKeyEvent* e) override;
-public slots:
-    void setUp();
-    void setDown();
 private:
     QPixmap mCurrentButton;
     QPixmap mDownButton;
