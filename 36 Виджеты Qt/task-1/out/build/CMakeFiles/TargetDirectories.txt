@@ -1,5 +1,5 @@
-B:/c++/SkillTusk/36 Виджеты Qt/task-1/out/build/CMakeFiles/MyApp.dir
+B:/c++/SkillTusk/36 Виджеты Qt/task-1/out/build/CMakeFiles/QtWidgetsApplication1.dir
 B:/c++/SkillTusk/36 Виджеты Qt/task-1/out/build/CMakeFiles/edit_cache.dir
 B:/c++/SkillTusk/36 Виджеты Qt/task-1/out/build/CMakeFiles/rebuild_cache.dir
-B:/c++/SkillTusk/36 Виджеты Qt/task-1/out/build/CMakeFiles/MyApp_autogen_timestamp_deps.dir
-B:/c++/SkillTusk/36 Виджеты Qt/task-1/out/build/CMakeFiles/MyApp_autogen.dir
+B:/c++/SkillTusk/36 Виджеты Qt/task-1/out/build/CMakeFiles/QtWidgetsApplication1_autogen_timestamp_deps.dir
+B:/c++/SkillTusk/36 Виджеты Qt/task-1/out/build/CMakeFiles/QtWidgetsApplication1_autogen.dir

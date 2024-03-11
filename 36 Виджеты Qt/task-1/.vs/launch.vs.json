@@ -5,14 +5,8 @@
     {
       "type": "default",
       "project": "CMakeLists.txt",
-      "projectTarget": "MyApp.exe",
+      "projectTarget": "QtWidgetsApplication1.exe",
       "name": "Qt Application"
-    },
-    {
-      "type": "default",
-      "project": "CMakeLists.txt",
-      "projectTarget": "MyApp.exe",
-      "name": "MyApp.exe"
     }
   ]
 }

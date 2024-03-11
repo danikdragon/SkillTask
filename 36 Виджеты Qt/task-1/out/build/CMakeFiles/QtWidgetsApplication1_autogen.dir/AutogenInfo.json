@@ -1,0 +1,135 @@
+{
+	"BUILD_DIR" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build/QtWidgetsApplication1_autogen",
+	"CMAKE_BINARY_DIR" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1",
+	"CMAKE_EXECUTABLE" : "B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/CMakeLists.txt",
+		"B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build/CMakeFiles/3.28.0-msvc1/CMakeSystem.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake",
+		"B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build/CMakeFiles/3.28.0-msvc1/CMakeCXXCompiler.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake",
+		"B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build/CMakeFiles/3.28.0-msvc1/CMakeRCCompiler.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake",
+		"B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/qt.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeParseArguments.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QInsightTrackerPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"B:/Qt/5.15.2/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"B:/Visual 2022/cashe/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeParseArguments.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1",
+	"DEP_FILE" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build/QtWidgetsApplication1_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "QtWidgetsApplication1_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/circuls.h",
+			"MU",
+			"EWIEGA46WW/moc_circuls.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build/QtWidgetsApplication1_autogen/include",
+	"MOC_COMPILATION_FILE" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build/QtWidgetsApplication1_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB", "WIN32" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"B:/Qt/5.15.2/msvc2019_64/include",
+		"B:/Qt/5.15.2/msvc2019_64/include/QtCore",
+		"B:/Qt/5.15.2/msvc2019_64/mkspecs/win32-msvc",
+		"B:/Qt/5.15.2/msvc2019_64/include/QtGui",
+		"B:/Qt/5.15.2/msvc2019_64/include/QtANGLE",
+		"B:/Qt/5.15.2/msvc2019_64/include/QtWidgets"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build/CMakeFiles/QtWidgetsApplication1_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "B:/Qt/5.15.2/msvc2019_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "B:/Qt/5.15.2/msvc2019_64/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/out/build/CMakeFiles/QtWidgetsApplication1_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/circuls.cpp",
+			"MU",
+			null
+		],
+		[
+			"B:/c++/SkillTusk/36 \u0412\u0438\u0434\u0436\u0435\u0442\u044b Qt/task-1/main.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

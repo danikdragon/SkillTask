@@ -1,17 +1,36 @@
-﻿cmake_minimum_required(VERSION 3.8)
-project(MyQtProject)
+cmake_minimum_required(VERSION 3.8)
+project(QtWidgetsApplication1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTORCC ON)
-set(CMAKE_AUTOUIC ON)
+include(qt.cmake)
 
-set(CMAKE_PREFIX_PATH "B:\\Qt\\5.15.2\\mingw81_64\\lib\\cmake")
+find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core)
+find_package(Qt${QT_VERSION_MAJOR}
+    COMPONENTS
+        Core
+        Gui
+        Widgets
+)
+qt_standard_project_setup()
 
-find_package(Qt5 COMPONENTS Widgets REQUIRED)
+set(PROJECT_SOURCES
+    main.cpp
+    circuls.cpp
+    circuls.h
+)
 
-add_executable(MyApp main.cpp Header1.h)
+qt_add_executable(QtWidgetsApplication1 ${PROJECT_SOURCES})
 
-target_link_libraries(MyApp Qt5::Widgets)
+set_target_properties(QtWidgetsApplication1
+    PROPERTIES
+        WIN32_EXECUTABLE TRUE
+)
+
+target_link_libraries(QtWidgetsApplication1
+    PUBLIC
+        Qt::Core
+        Qt::Gui
+        Qt::Widgets
+)
