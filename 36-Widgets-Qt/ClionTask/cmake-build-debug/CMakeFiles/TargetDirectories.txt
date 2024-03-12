@@ -1,0 +1,5 @@
+B:/c++/SkillTusk/36-Widgets-Qt/ClionTask/cmake-build-debug/CMakeFiles/ClionTask.dir
+B:/c++/SkillTusk/36-Widgets-Qt/ClionTask/cmake-build-debug/CMakeFiles/edit_cache.dir
+B:/c++/SkillTusk/36-Widgets-Qt/ClionTask/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+B:/c++/SkillTusk/36-Widgets-Qt/ClionTask/cmake-build-debug/CMakeFiles/ClionTask_autogen_timestamp_deps.dir
+B:/c++/SkillTusk/36-Widgets-Qt/ClionTask/cmake-build-debug/CMakeFiles/ClionTask_autogen.dir

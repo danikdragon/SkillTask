@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ClionTask",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ClionTask::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ClionTask-Debug-7919e10bc8b7a9b685a4.json",
+					"name" : "ClionTask",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ClionTask_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ClionTask_autogen-Debug-114790699b26c94245b8.json",
+					"name" : "ClionTask_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ClionTask_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ClionTask_autogen_timestamp_deps-Debug-9267de1f3cbbaf89436e.json",
+					"name" : "ClionTask_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "B:/c++/SkillTusk/36-Widgets-Qt/ClionTask/cmake-build-debug",
+		"source" : "B:/c++/SkillTusk/36-Widgets-Qt/ClionTask"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
