@@ -1,0 +1,5 @@
+B:/c++/SkillTusk/36 Виджеты Qt/build-task-1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/MyApp.dir
+B:/c++/SkillTusk/36 Виджеты Qt/build-task-1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+B:/c++/SkillTusk/36 Виджеты Qt/build-task-1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+B:/c++/SkillTusk/36 Виджеты Qt/build-task-1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/MyApp_autogen_timestamp_deps.dir
+B:/c++/SkillTusk/36 Виджеты Qt/build-task-1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/MyApp_autogen.dir
