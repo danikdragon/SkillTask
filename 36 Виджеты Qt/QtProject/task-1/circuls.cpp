@@ -3,10 +3,10 @@
 void ImageCircul::paintEvent(QPaintEvent* event)
 {
 	QPainter painter(this);
-    green.load("../green.png");
-    red.load("../red.png");
-    blue.load("../blue.png");
-    curent.load(green);
+    green = (QString)("../green.png");
+    red = (QString)("../red.png");
+    blue = (QString)("../blue.png");
+    curent = green;
 	painter.drawPixmap(event->rect(), curent);
 }
 void ImageCircul::changeColorOnRed()
