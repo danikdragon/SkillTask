@@ -14,11 +14,17 @@
 		"commands" : 
 		[
 			"add_executable",
+			"set_target_properties",
+			"find_package",
 			"target_link_libraries"
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"CMakeLists.txt",
+			"B:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+			"B:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake",
+			"B:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+			"B:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
 		],
 		"nodes" : 
 		[
@@ -28,13 +34,71 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
-				"command" : 1,
+				"command" : 2,
 				"file" : 0,
-				"line" : 18,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 254,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 5
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 253,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 105,
+				"parent" : 8
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 254,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 22,
 				"parent" : 0
 			}
 		]
@@ -45,21 +109,21 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu++17 -fdiagnostics-color=always"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 13,
 					"define" : "QT_CORE_LIB"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 13,
 					"define" : "QT_GUI_LIB"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 13,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
@@ -67,36 +131,35 @@
 			[
 				{
 					"backtrace" : 0,
-					"isSystem" : true,
 					"path" : "B:/c++/SkillTusk/36-Widgets-Qt/ClionTask/cmake-build-debug/ClionTask_autogen/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 13,
 					"isSystem" : true,
 					"path" : "B:/Qt/5.15.2/mingw81_64/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 13,
 					"isSystem" : true,
 					"path" : "B:/Qt/5.15.2/mingw81_64/include/QtCore"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 13,
 					"isSystem" : true,
 					"path" : "B:/Qt/5.15.2/mingw81_64/./mkspecs/win32-g++"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 13,
 					"isSystem" : true,
 					"path" : "B:/Qt/5.15.2/mingw81_64/include/QtGui"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 13,
 					"isSystem" : true,
 					"path" : "B:/Qt/5.15.2/mingw81_64/include/QtANGLE"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 13,
 					"isSystem" : true,
 					"path" : "B:/Qt/5.15.2/mingw81_64/include/QtWidgets"
 				}
@@ -106,7 +169,7 @@
 			{
 				"backtraces" : 
 				[
-					2
+					13
 				],
 				"standard" : "17"
 			},
@@ -120,11 +183,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ClionTask_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "ClionTask_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ClionTask_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "ClionTask::@6890427a1f51a3e7e1df",
@@ -141,17 +204,17 @@
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 6,
 				"fragment" : "B:\\Qt\\5.15.2\\mingw81_64\\lib\\libQt5Widgets.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 9,
 				"fragment" : "B:\\Qt\\5.15.2\\mingw81_64\\lib\\libQt5Gui.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 2,
+				"backtrace" : 12,
 				"fragment" : "B:\\Qt\\5.15.2\\mingw81_64\\lib\\libQt5Core.a",
 				"role" : "libraries"
 			},

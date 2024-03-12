@@ -251,8 +251,39 @@ ClionTask_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 ClionTask_SOURCE_DIR:STATIC=B:/c++/SkillTusk/36-Widgets-Qt/ClionTask
 
+//Pick a version of Qt to use: 3 or 4
+DESIRED_QT_VERSION:STRING=3
+
+//Path to a file.
+QT3_QGLOBAL_H_FILE:FILEPATH=C:/msys64/mingw64/include
+
+//Path to a file.
+QT4_QGLOBAL_H_FILE:FILEPATH=QT4_QGLOBAL_H_FILE-NOTFOUND
+
 //The directory containing a CMake configuration file for QT.
 QT_DIR:PATH=QT_DIR-NOTFOUND
+
+//path to Qt3 include directory
+QT_INCLUDE_DIR:PATH=QT_INCLUDE_DIR-NOTFOUND
+
+//Path to a program.
+QT_MOC_EXECUTABLE:FILEPATH=QT_MOC_EXECUTABLE-NOTFOUND
+
+//Path to a library.
+QT_QASSISTANTCLIENT_LIBRARY:FILEPATH=QT_QASSISTANTCLIENT_LIBRARY-NOTFOUND
+
+//Path to a program.
+QT_QMAKE_EXECUTABLE_FINDQT:FILEPATH=QT_QMAKE_EXECUTABLE_FINDQT-NOTFOUND
+
+//This Library is only needed by and included with Qt3 on MSWindows.
+// It should be NOTFOUND, undefined or IGNORE otherwise.
+QT_QTMAIN_LIBRARY:FILEPATH=QT_QTMAIN_LIBRARY-NOTFOUND
+
+//Path to a library.
+QT_QT_LIBRARY:FILEPATH=QT_QT_LIBRARY-NOTFOUND
+
+//Path to a program.
+QT_UIC_EXECUTABLE:FILEPATH=QT_UIC_EXECUTABLE-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=B:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core
@@ -265,6 +296,9 @@ Qt5Widgets_DIR:PATH=B:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets
 
 //The directory containing a CMake configuration file for Qt5.
 Qt5_DIR:PATH=B:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5
+
+//The directory containing a CMake configuration file for Qt.
+Qt_DIR:PATH=Qt_DIR-NOTFOUND
 
 
 ########################

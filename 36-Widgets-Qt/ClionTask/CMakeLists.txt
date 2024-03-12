@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.27)
+cmake_minimum_required(VERSION 3.8)
 project(ClionTask)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -6,23 +6,26 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-#set(CMAKE_PREFIX_PATH "B:/Qt/5.15.2/mingw81_64/lib/cmake")
 set(find_package)
 
-find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Widgets Gui)
-find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS
+#set(CMAKE_PREFIX_PATH "B:/Qt/5.15.2/mingw81_64/lib/cmake")
+#find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Widgets Gui)
+find_package(Qt5 COMPONENTS
         Widgets
         Core
         Gui
+        REQUIRED
 )
 
 add_executable(ClionTask main.cpp)
 
-target_link_libraries(ClionTask
-        Qt5::Core
-        Qt5::Gui
-        Qt5::Widgets
+target_link_libraries(ClionTask PRIVATE
+        Qt${QT_VERSION_MAJOR}::Core
+        Qt${QT_VERSION_MAJOR}::Gui
+        Qt${QT_VERSION_MAJOR}::Widgets
 )
+
+
 
 #if (WIN32 AND NOT DEFINED CMAKE_TOOLCHAIN_FILE)
 #    set(DEBUG_SUFFIX)
