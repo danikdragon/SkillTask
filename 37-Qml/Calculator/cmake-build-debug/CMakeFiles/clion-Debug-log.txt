@@ -1,0 +1,4 @@
+"B:\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=B:/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S B:\c++\SkillTusk\37-Qml\Calculator -B B:\c++\SkillTusk\37-Qml\Calculator\cmake-build-debug
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: B:/c++/SkillTusk/37-Qml/Calculator/cmake-build-debug

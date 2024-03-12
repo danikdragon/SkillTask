@@ -1,0 +1,5 @@
+B:/c++/SkillTusk/37-Qml/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir
+B:/c++/SkillTusk/37-Qml/Calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+B:/c++/SkillTusk/37-Qml/Calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+B:/c++/SkillTusk/37-Qml/Calculator/cmake-build-debug/CMakeFiles/Calculator_autogen_timestamp_deps.dir
+B:/c++/SkillTusk/37-Qml/Calculator/cmake-build-debug/CMakeFiles/Calculator_autogen.dir
