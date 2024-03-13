@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "B:/c++/SkillTusk/37-Qml/Player/cmake-build-debug/Player_autogen",
+	"CMAKE_BINARY_DIR" : "B:/c++/SkillTusk/37-Qml/Player/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "B:/c++/SkillTusk/37-Qml/Player/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "B:/c++/SkillTusk/37-Qml/Player",
+	"CMAKE_SOURCE_DIR" : "B:/c++/SkillTusk/37-Qml/Player",
+	"INCLUDE_DIR" : "B:/c++/SkillTusk/37-Qml/Player/cmake-build-debug/Player_autogen/include",
+	"INPUTS" : [ "B:/c++/SkillTusk/37-Qml/Player/main.qml" ],
+	"LOCK_FILE" : "B:/c++/SkillTusk/37-Qml/Player/cmake-build-debug/CMakeFiles/Player_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "B:/Qt/5.15.2/mingw81_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "B:/c++/SkillTusk/37-Qml/Player/cmake-build-debug/CMakeFiles/Player_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "B:/c++/SkillTusk/37-Qml/Player/qml.qrc",
+	"VERBOSITY" : 0
+}

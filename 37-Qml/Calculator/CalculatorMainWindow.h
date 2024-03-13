@@ -86,9 +86,16 @@ public slots:
             }
             if(textEdit->toPlainText() != "-")
             {
-                char tempOperator = lastOperator;
                 this->checkActions(lastOperator);
-                lastOperator = tempOperator;
+                setWindowTitle("Calculator");
+                lastOperator = ' ';
+                textEdit->setText(QString::number(sum));
+                dothCheck = false;
+                lastValue = 0;
+                sum = 0;
+                for (int i = 0; i < textEdit->toPlainText().size(); ++i)
+                    if(textEdit->toPlainText()[i] == '.')
+                        dothCheck = true;
             }
         }
         else if(textEdit->toPlainText().isEmpty() && lastOperator != ' ')
@@ -195,8 +202,8 @@ public:
 private:
     bool error = false;
     bool dothCheck = false;
-    float lastValue;
-    float sum;
+    float lastValue = 0;
+    float sum = 0;
     char lastOperator = ' ';
 };
 

@@ -2,12 +2,15 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>440</width>
-    <height>590</height>
+    <width>333</width>
+    <height>529</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -16,20 +19,66 @@
     <verstretch>0</verstretch>
    </sizepolicy>
   </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
   <property name="windowTitle">
    <string notr="true">Calculator</string>
   </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="toolTipDuration">
+   <number>-1</number>
+  </property>
   <property name="styleSheet">
    <string notr="true">background-color:rgb(32, 32, 32);
-color:rgb(210, 210, 210)</string>
+color:rgb(210, 210, 210);
+border: 0px;</string>
   </property>
   <property name="toolButtonStyle">
-   <enum>Qt::ToolButtonIconOnly</enum>
+   <enum>Qt::ToolButtonTextOnly</enum>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::AnimatedDocks</set>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QGridLayout" name="gridLayout_3">
-    <item row="0" column="0">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <property name="leftMargin">
+     <number>5</number>
+    </property>
+    <property name="topMargin">
+     <number>5</number>
+    </property>
+    <property name="rightMargin">
+     <number>5</number>
+    </property>
+    <property name="bottomMargin">
+     <number>5</number>
+    </property>
+    <item>
      <layout class="QGridLayout" name="gridLayout_2">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetNoConstraint</enum>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
       <item row="1" column="0">
        <layout class="QGridLayout" name="gridLayout">
         <property name="sizeConstraint">
@@ -39,21 +88,12 @@ color:rgb(210, 210, 210)</string>
          <number>2</number>
         </property>
         <item row="1" column="3">
-         <widget class="QPushButton" name="pushButton_20">
+         <widget class="QPushButton" name="pushButton_24">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
             <verstretch>0</verstretch>
            </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
           </property>
           <property name="styleSheet">
            <string notr="true">font: 14pt;
@@ -61,7 +101,7 @@ background-color:rgb(60, 60, 60);
 border-radius: 5px;</string>
           </property>
           <property name="text">
-           <string>/</string>
+           <string>&lt;=</string>
           </property>
           <property name="autoExclusive">
            <bool>false</bool>
@@ -77,48 +117,7 @@ border-radius: 5px;</string>
           </property>
          </widget>
         </item>
-        <item row="6" column="3">
-         <widget class="QPushButton" name="pushButton_16">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(9, 107, 176);
-color:black;
-border-radius: 5px;
-</string>
-          </property>
-          <property name="text">
-           <string>=</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
+        <item row="3" column="1">
          <widget class="QPushButton" name="pushButton_11">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
@@ -157,397 +156,7 @@ border-radius: 5px;</string>
           </property>
          </widget>
         </item>
-        <item row="5" column="2">
-         <widget class="QPushButton" name="pushButton_8">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(100, 100, 100);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>3</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="6" column="0">
-         <widget class="QPushButton" name="pushButton">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(100, 100, 100);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>+/-</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="3">
-         <widget class="QPushButton" name="pushButton_13">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(60, 60, 60);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>x</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="6" column="2">
-         <widget class="QPushButton" name="pushButton_7">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(100, 100, 100);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>,</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="2">
-         <widget class="QPushButton" name="pushButton_9">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(100, 100, 100);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>6</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="6" column="1">
-         <widget class="QPushButton" name="pushButton_6">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(100, 100, 100);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>0</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="0">
-         <widget class="QPushButton" name="pushButton_3">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(60, 60, 60);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>%</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="QPushButton" name="pushButton_18">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(60, 60, 60);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>CE</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="0">
-         <widget class="QPushButton" name="pushButton_17">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(100, 100, 100);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>4</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="3">
-         <widget class="QPushButton" name="pushButton_15">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(60, 60, 60);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>+</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="2">
+        <item row="1" column="2">
          <widget class="QPushButton" name="pushButton_19">
           <property name="enabled">
            <bool>true</bool>
@@ -589,8 +198,8 @@ border-radius: 5px;</string>
           </property>
          </widget>
         </item>
-        <item row="5" column="0">
-         <widget class="QPushButton" name="pushButton_2">
+        <item row="7" column="3">
+         <widget class="QPushButton" name="pushButton_16">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -608,179 +217,13 @@ border-radius: 5px;</string>
           </property>
           <property name="styleSheet">
            <string notr="true">font: 14pt;
-background-color:rgb(100, 100, 100);
-border-radius: 5px;</string>
+background-color:rgb(9, 107, 176);
+color:black;
+border-radius: 5px;
+</string>
           </property>
           <property name="text">
-           <string>1</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="3">
-         <widget class="QPushButton" name="pushButton_14">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(60, 60, 60);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>-</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="QPushButton" name="pushButton_22">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(60, 60, 60);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>x² </string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="QPushButton" name="pushButton_21">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(60, 60, 60);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>1/x</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="3">
-         <widget class="QPushButton" name="pushButton_24">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(60, 60, 60);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>&lt;=</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="1">
-         <widget class="QPushButton" name="pushButton_5">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="font">
-           <font>
-            <family>MS Shell Dlg 2</family>
-            <pointsize>14</pointsize>
-            <weight>50</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(100, 100, 100);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>2</string>
+           <string>=</string>
           </property>
           <property name="autoExclusive">
            <bool>false</bool>
@@ -797,7 +240,76 @@ border-radius: 5px;</string>
          </widget>
         </item>
         <item row="2" column="2">
-         <widget class="QPushButton" name="pushButton_12">
+         <widget class="QPushButton" name="pushButton_23">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(60, 60, 60);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>√x</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="pushButton_18">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(60, 60, 60);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>CE</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QPushButton" name="pushButton_10">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -819,7 +331,7 @@ background-color:rgb(100, 100, 100);
 border-radius: 5px;</string>
           </property>
           <property name="text">
-           <string>9</string>
+           <string>7</string>
           </property>
           <property name="autoExclusive">
            <bool>false</bool>
@@ -835,7 +347,85 @@ border-radius: 5px;</string>
           </property>
          </widget>
         </item>
-        <item row="4" column="1">
+        <item row="1" column="0">
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(60, 60, 60);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>%</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QPushButton" name="pushButton_13">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(60, 60, 60);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>x</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
          <widget class="QPushButton" name="pushButton_4">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
@@ -874,38 +464,8 @@ border-radius: 5px;</string>
           </property>
          </widget>
         </item>
-        <item row="1" column="2">
-         <widget class="QPushButton" name="pushButton_23">
-          <property name="sizePolicy">
-           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-            <horstretch>0</horstretch>
-            <verstretch>0</verstretch>
-           </sizepolicy>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 14pt;
-background-color:rgb(60, 60, 60);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>√x</string>
-          </property>
-          <property name="autoExclusive">
-           <bool>false</bool>
-          </property>
-          <property name="autoDefault">
-           <bool>false</bool>
-          </property>
-          <property name="default">
-           <bool>false</bool>
-          </property>
-          <property name="flat">
-           <bool>false</bool>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="QPushButton" name="pushButton_10">
+        <item row="6" column="0">
+         <widget class="QPushButton" name="pushButton_2">
           <property name="sizePolicy">
            <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
             <horstretch>0</horstretch>
@@ -927,7 +487,496 @@ background-color:rgb(100, 100, 100);
 border-radius: 5px;</string>
           </property>
           <property name="text">
-           <string>7</string>
+           <string>1</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QPushButton" name="pushButton_17">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(100, 100, 100);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>4</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QPushButton" name="pushButton_12">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(100, 100, 100);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>9</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(100, 100, 100);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>2</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="2">
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(100, 100, 100);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>3</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(100, 100, 100);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>0</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="3">
+         <widget class="QPushButton" name="pushButton_15">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(60, 60, 60);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>+</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="3">
+         <widget class="QPushButton" name="pushButton_14">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(60, 60, 60);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>-</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QPushButton" name="pushButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(100, 100, 100);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>+/-</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="2">
+         <widget class="QPushButton" name="pushButton_7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(100, 100, 100);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>,</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QPushButton" name="pushButton_21">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(60, 60, 60);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>1/x</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QPushButton" name="pushButton_22">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(60, 60, 60);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>x² </string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QPushButton" name="pushButton_9">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(100, 100, 100);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>6</string>
+          </property>
+          <property name="autoExclusive">
+           <bool>false</bool>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QPushButton" name="pushButton_20">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+            <pointsize>14</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt;
+background-color:rgb(60, 60, 60);
+border-radius: 5px;</string>
+          </property>
+          <property name="text">
+           <string>/</string>
           </property>
           <property name="autoExclusive">
            <bool>false</bool>
@@ -977,7 +1026,6 @@ p, li { white-space: pre-wrap; }
     </item>
    </layout>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections>

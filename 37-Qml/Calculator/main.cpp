@@ -11,3 +11,4 @@ int main(int argc, char *argv[]) {
     calculator.show();
     return QApplication::exec();
 }
+

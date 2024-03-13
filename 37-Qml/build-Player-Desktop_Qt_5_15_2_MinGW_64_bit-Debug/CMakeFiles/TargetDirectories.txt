@@ -1,0 +1,9 @@
+B:/c++/SkillTusk/37-Qml/build-Player-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/Player.dir
+B:/c++/SkillTusk/37-Qml/build-Player-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+B:/c++/SkillTusk/37-Qml/build-Player-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+B:/c++/SkillTusk/37-Qml/build-Player-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+B:/c++/SkillTusk/37-Qml/build-Player-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+B:/c++/SkillTusk/37-Qml/build-Player-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+B:/c++/SkillTusk/37-Qml/build-Player-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+B:/c++/SkillTusk/37-Qml/build-Player-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/Player_autogen_timestamp_deps.dir
+B:/c++/SkillTusk/37-Qml/build-Player-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/Player_autogen.dir
