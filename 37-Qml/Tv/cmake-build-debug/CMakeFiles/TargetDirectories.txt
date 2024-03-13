@@ -1,0 +1,5 @@
+B:/c++/SkillTusk/37-Qml/Tv/cmake-build-debug/CMakeFiles/Tv.dir
+B:/c++/SkillTusk/37-Qml/Tv/cmake-build-debug/CMakeFiles/edit_cache.dir
+B:/c++/SkillTusk/37-Qml/Tv/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+B:/c++/SkillTusk/37-Qml/Tv/cmake-build-debug/CMakeFiles/Tv_autogen_timestamp_deps.dir
+B:/c++/SkillTusk/37-Qml/Tv/cmake-build-debug/CMakeFiles/Tv_autogen.dir
