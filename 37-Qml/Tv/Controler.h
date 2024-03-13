@@ -83,8 +83,8 @@ public:
     }
     int volume = 0;
     int chanel = 0;
-    QTextEdit *textEdit = nullptr;
     bool working = false;
+    QTextEdit *textEdit = nullptr;
 
     TvControler(QWidget *parent = nullptr): QMainWindow(parent) {};
     ~TvControler()

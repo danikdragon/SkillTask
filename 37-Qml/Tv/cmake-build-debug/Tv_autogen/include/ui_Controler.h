@@ -72,10 +72,13 @@ public:
         sizePolicy1.setHeightForWidth(textEdit->sizePolicy().hasHeightForWidth());
         textEdit->setSizePolicy(sizePolicy1);
         textEdit->setAcceptDrops(true);
+        textEdit->setLayoutDirection(Qt::LeftToRight);
         textEdit->setStyleSheet(QString::fromUtf8("background-color: rgb(0, 0, 0);\n"
 "color: rgb(0, 170, 0);\n"
 "font:17pt;\n"
-"align:\"center\";"));
+"text-align: center;"));
+        textEdit->setLineWrapMode(QTextEdit::NoWrap);
+        textEdit->setTabStopWidth(80);
 
         verticalLayout->addWidget(textEdit);
 
