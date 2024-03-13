@@ -251,6 +251,9 @@ Calculator_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Calculator_SOURCE_DIR:STATIC=B:/c++/SkillTusk/37-Qml/Calculator
 
+//The directory containing a CMake configuration file for QT.
+QT_DIR:PATH=QT_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=B:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core
 
@@ -262,6 +265,9 @@ Qt5Widgets_DIR:PATH=B:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets
 
 //The directory containing a CMake configuration file for Qt5.
 Qt5_DIR:PATH=B:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5
+
+//The directory containing a CMake configuration file for Qt.
+Qt_DIR:PATH=Qt_DIR-NOTFOUND
 
 
 ########################

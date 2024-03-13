@@ -1306,6 +1306,18 @@
 			"value" : "B:/c++/SkillTusk/37-Qml/Calculator"
 		},
 		{
+			"name" : "QT_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for QT."
+				}
+			],
+			"type" : "PATH",
+			"value" : "QT_DIR-NOTFOUND"
+		},
+		{
 			"name" : "Qt5Core_DIR",
 			"properties" : 
 			[
@@ -1352,6 +1364,18 @@
 			],
 			"type" : "PATH",
 			"value" : "B:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5"
+		},
+		{
+			"name" : "Qt_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Qt."
+				}
+			],
+			"type" : "PATH",
+			"value" : "Qt_DIR-NOTFOUND"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

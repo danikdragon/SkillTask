@@ -1,12 +1,12 @@
 *
 !*/
 !*.cpp
-!*.png
 !*.h
 !*.json
 !*.txt
 !*.ui
 !*.cmake
+!*.png
 !*.gitignore
 
 **/nlohmann_json

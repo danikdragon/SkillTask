@@ -41,6 +41,7 @@ public slots:
     void cleare()
     {
         textEdit->setText(textEdit->toPlainText() = "");
+        dothCheck = false;
     }
     void dif()
     {
@@ -83,31 +84,39 @@ public slots:
                 text.chop(1);
                 textEdit->setText(textEdit->toPlainText() + text);
             }
-            char tempOperator = lastOperator;
-            this->checkActions(lastOperator);
-            lastOperator = tempOperator;
+            if(textEdit->toPlainText() != "-")
+            {
+                char tempOperator = lastOperator;
+                this->checkActions(lastOperator);
+                lastOperator = tempOperator;
+            }
         }
         else if(textEdit->toPlainText().isEmpty() && lastOperator != ' ')
         {
-            textEdit->setText(QString::number(lastValue));
-
-            char tempOperator = lastOperator;
-            this->checkActions(lastOperator);
-            lastOperator = tempOperator;
+            if(textEdit->toPlainText() != "-")
+            {
+                textEdit->setText(QString::number(lastValue));
+                char tempOperator = lastOperator;
+                this->checkActions(lastOperator);
+                lastOperator = tempOperator;
+            }
         }
     }
 
     void Negative()
     {
-        QString text = textEdit->toPlainText();
-        if (text.front() == '-')
+        if(!textEdit->toPlainText().isEmpty())
         {
-            text.remove(0,1);
-            textEdit->setText(text);
-        }else
-        {
-            text.insert(0, '-');
-            textEdit->setText(text);
+            QString text = textEdit->toPlainText();
+            if (text.front() == '-')
+            {
+                text.remove(0,1);
+                textEdit->setText(text);
+            }else
+            {
+                text.insert(0, '-');
+                textEdit->setText(text);
+            }
         }
     }
     void percent()
