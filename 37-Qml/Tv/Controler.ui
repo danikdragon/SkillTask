@@ -49,8 +49,7 @@
         <property name="styleSheet">
          <string notr="true">background-color: rgb(0, 0, 0);
 color: rgb(0, 170, 0);
-font:17pt;
-text-align: center;</string>
+font:17pt;</string>
         </property>
         <property name="lineWrapMode">
          <enum>QTextEdit::NoWrap</enum>
