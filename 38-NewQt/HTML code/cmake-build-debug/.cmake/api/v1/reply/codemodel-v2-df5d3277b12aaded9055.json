@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "HTML_code",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HTML_code::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HTML_code-Debug-59324e874d58dd5e8b44.json",
+					"name" : "HTML_code",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HTML_code_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HTML_code_autogen-Debug-9cbe3d0df8d55eeae818.json",
+					"name" : "HTML_code_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HTML_code_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HTML_code_autogen_timestamp_deps-Debug-3eae23828735e2e7bf2a.json",
+					"name" : "HTML_code_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "B:/c++/SkillTusk/38-NewQt/HTML code/cmake-build-debug",
+		"source" : "B:/c++/SkillTusk/38-NewQt/HTML code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

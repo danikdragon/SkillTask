@@ -1,0 +1,5 @@
+B:/c++/SkillTusk/38-NewQt/HTML code/cmake-build-debug/CMakeFiles/HTML_code.dir
+B:/c++/SkillTusk/38-NewQt/HTML code/cmake-build-debug/CMakeFiles/edit_cache.dir
+B:/c++/SkillTusk/38-NewQt/HTML code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+B:/c++/SkillTusk/38-NewQt/HTML code/cmake-build-debug/CMakeFiles/HTML_code_autogen_timestamp_deps.dir
+B:/c++/SkillTusk/38-NewQt/HTML code/cmake-build-debug/CMakeFiles/HTML_code_autogen.dir
