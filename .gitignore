@@ -9,6 +9,7 @@
 !*.qrc
 !*.cmake
 !*.png
+!*.mp3
 !*.gitignore
 
 **/nlohmann_json

@@ -16,9 +16,9 @@ int main(int argc, char *argv[]) {
                             "border-image: url(../down.png);"
                          "}");
     button.setFixedSize(100,100);
-    QObject::connect(&button, &QPushButton::clicked, [](){
+    QObject::connect(&button, &QPushButton::clicked, [&app](){
         QMediaPlayer player;
-        player.setMedia(QUrl("https://zvukipro.com/uploads/files/2019-11/1573488356_road_runner_beep_beep_sound_effect.mp3"));
+        player.setMedia(QUrl::fromLocalFile("bip.mp3"));
         player.setVolume(50);
         player.play();
 
