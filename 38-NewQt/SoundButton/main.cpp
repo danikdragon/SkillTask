@@ -2,13 +2,15 @@
 #include <QPushButton>
 #include <QMediaPlayer>
 #include <QMediaContent>
-#include <QUrl>
-#include <QStyle>
 #include <QStyleOptionButton>
+#include <QStyle>
+#include <QUrl>
+#include <QDir>
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
     QPushButton button;
+    QDir::currentPath();
     button.setStyleSheet("QPushButton {"
                             "border-image: url(../up.png);"
                          "}"
@@ -18,7 +20,7 @@ int main(int argc, char *argv[]) {
     button.setFixedSize(100,100);
     QObject::connect(&button, &QPushButton::clicked, [&app](){
         QMediaPlayer player;
-        player.setMedia(QUrl::fromLocalFile("bip.mp3"));
+        player.setMedia(QUrl::fromLocalFile(":/mp/bip.mp3"));
         player.setVolume(50);
         player.play();
 
