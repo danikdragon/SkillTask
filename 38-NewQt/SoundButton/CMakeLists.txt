@@ -12,9 +12,16 @@ find_package(Qt5 COMPONENTS
         Widgets
         Multimedia
         MultimediaWidgets
-        REQUIRED)
+        REQUIRED
+)
 
-add_executable(SoundButton main.cpp)
+add_executable(SoundButton main.cpp
+        bip.mp3
+        down.png
+        up.png
+
+)
+
 target_link_libraries(SoundButton
         PRIVATE
         Qt5::Core

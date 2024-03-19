@@ -43,21 +43,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SoundButton::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SoundButton-Debug-144e17e9280170066356.json",
+					"jsonFile" : "target-SoundButton-Debug-b8b84fa51baf5c09ac75.json",
 					"name" : "SoundButton",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "SoundButton_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SoundButton_autogen-Debug-11bab00b9ef42c1237f9.json",
+					"jsonFile" : "target-SoundButton_autogen-Debug-bbb3dd38764803d08205.json",
 					"name" : "SoundButton_autogen",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "SoundButton_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SoundButton_autogen_timestamp_deps-Debug-84a659507abdbcd77e68.json",
+					"jsonFile" : "target-SoundButton_autogen_timestamp_deps-Debug-d004c9882e474d90ee9d.json",
 					"name" : "SoundButton_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}
@@ -67,7 +67,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "B:/c++/SkillTusk/38-NewQt/SoundButton/cmake-build-debug",
+		"build" : "B:/c++/SkillTusk/38-NewQt/build-SoundButton-Desktop_Qt_5_15_2_MinGW_64_bit-Debug",
 		"source" : "B:/c++/SkillTusk/38-NewQt/SoundButton"
 	},
 	"version" : 

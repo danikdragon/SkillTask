@@ -33,13 +33,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 18,
+				"line" : 25,
 				"parent" : 0
 			},
 			{
@@ -262,14 +262,23 @@
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				2
+				2,
+				5
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				3,
+				4
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				3
+				6
 			]
 		}
 	],
@@ -289,6 +298,21 @@
 			"sourceGroupIndex" : 0
 		},
 		{
+			"backtrace" : 1,
+			"path" : "bip.mp3",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "down.png",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "up.png",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "cmake-build-debug/SoundButton_autogen/timestamp",
@@ -298,7 +322,7 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "cmake-build-debug/SoundButton_autogen/timestamp.rule",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 3
 		}
 	],
 	"type" : "EXECUTABLE"

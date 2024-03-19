@@ -1,0 +1,5 @@
+B:/c++/SkillTusk/38-NewQt/build-SoundButton-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/SoundButton.dir
+B:/c++/SkillTusk/38-NewQt/build-SoundButton-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+B:/c++/SkillTusk/38-NewQt/build-SoundButton-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+B:/c++/SkillTusk/38-NewQt/build-SoundButton-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/SoundButton_autogen_timestamp_deps.dir
+B:/c++/SkillTusk/38-NewQt/build-SoundButton-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/SoundButton_autogen.dir
