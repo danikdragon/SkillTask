@@ -1,5 +1,0 @@
-B:/c++/SkillTusk/38-NewQt/SoundButton/cmake-build-debug/CMakeFiles/SoundButton.dir
-B:/c++/SkillTusk/38-NewQt/SoundButton/cmake-build-debug/CMakeFiles/edit_cache.dir
-B:/c++/SkillTusk/38-NewQt/SoundButton/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-B:/c++/SkillTusk/38-NewQt/SoundButton/cmake-build-debug/CMakeFiles/SoundButton_autogen_timestamp_deps.dir
-B:/c++/SkillTusk/38-NewQt/SoundButton/cmake-build-debug/CMakeFiles/SoundButton_autogen.dir
