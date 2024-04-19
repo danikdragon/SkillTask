@@ -15,4 +15,5 @@
 **/nlohmann_json
 **/_deps
 **/cpr
+**/build-HtmlCreate-Desktop_Qt_6_6_2_MinGW_64_bit-Debug
 **/example-cmake-fetch-content
